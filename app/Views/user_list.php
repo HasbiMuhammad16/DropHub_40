@@ -1,3 +1,9 @@
+<?php
+/**
+ * @var array $users
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
