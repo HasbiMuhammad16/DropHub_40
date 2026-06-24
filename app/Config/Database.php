@@ -24,12 +24,12 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
-    public array $default = [
+   public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
+        'username'     => 'root',    
+        'password'     => '',          
+        'database'     => 'drophub_40', 
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
