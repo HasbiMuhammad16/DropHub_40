@@ -38,5 +38,13 @@
             </a>
         </div>
     </main>
+
+    <footer class="bg-slate-900 border-t border-slate-800 py-6">
+        <div class="max-w-7xl mx-auto px-8 flex justify-between items-center text-slate-500 text-xs">
+            <p>&copy; <?= date('Y') ?> DropHub 4.0. All Rights Reserved.</p>
+            <p>Sistem Kontrol Industri Terintegrasi</p>
+        </div>
+    </footer>
+
 </body>
 </html>
