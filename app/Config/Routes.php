@@ -12,3 +12,4 @@ $routes->get('/user/create', 'UserController::create');
 $routes->post('/user/store', 'UserController::store');
 $routes->get('/user/delete/(:num)', 'UserController::delete/$1');
 $routes->get('/dashboard', 'Dashboard::index');
+$routes->get('/about', 'About::index');
