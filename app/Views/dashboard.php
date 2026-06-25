@@ -16,7 +16,7 @@
             <p class="text-blue-100 mt-2 max-w-xl">Sistem distribusi pintar terintegrasi IoT untuk efisiensi pelacakan, manajemen loker otomatis, dan pemantauan rantai pasok secara real-time.</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <a href="/user" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-blue-500 transition shadow-lg">
                 <div class="flex justify-between items-start">
                     <div>
@@ -27,13 +27,23 @@
                 </div>
             </a>
 
-            <a href="/about" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-indigo-500 transition shadow-lg">
+            <a href="/item" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-emerald-500 transition shadow-lg">
                 <div class="flex justify-between items-start">
                     <div>
-                        <h3 class="text-lg font-bold text-white group-hover:text-indigo-400 transition">About Us</h3>
-                        <p class="text-sm text-slate-400 mt-1">Lihat profil lengkap tim pengembang, rincian nomor induk mahasiswa, serta kontribusi dalam proyek.</p>
+                        <h3 class="text-lg font-bold text-white group-hover:text-emerald-400 transition">Master Data Barang</h3>
+                        <p class="text-sm text-slate-400 mt-1">Kelola stok, lokasi loker, kategori, dan status aktif barang distribusi.</p>
                     </div>
-                    <span class="text-2xl text-slate-600 group-hover:text-indigo-400 transition">→</span>
+                    <span class="text-2xl text-slate-600 group-hover:text-emerald-400 transition">→</span>
+                </div>
+            </a>
+
+            <a href="/api/docs" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-teal-500 transition shadow-lg">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-teal-400 transition">Dokumentasi API</h3>
+                        <p class="text-sm text-slate-400 mt-1">Buka dokumentasi endpoint REST API untuk integrasi IoT dan aplikasi lain.</p>
+                    </div>
+                    <span class="text-2xl text-slate-600 group-hover:text-teal-400 transition">→</span>
                 </div>
             </a>
         </div>

@@ -1,0 +1,118 @@
+# API Integration Test for DropHub 4.0
+
+## GET /api/items
+Request:
+GET /api/items
+
+Response:
+HTTP/1.1 200 OK
+{
+  "data": [
+    {
+      "id": 1,
+      "nama_barang": "Test Barang",
+      "kategori": "Elektronik",
+      "stok": "10",
+      "lokasi_loker": "Loker A1",
+      "status_aktif": "aktif",
+      "created_at": null,
+      "updated_at": null
+    }
+  ]
+}
+
+## POST /api/items
+Request:
+POST /api/items
+Content-Type: application/json
+
+{
+  "nama_barang": "Sensor Suhu",
+  "kategori": "IoT",
+  "stok": 5,
+  "lokasi_loker": "Loker B2",
+  "status_aktif": "aktif"
+}
+
+Response:
+HTTP/1.1 201 Created
+{
+  "message": "Item dibuat.",
+  "data": {
+    "id": 2,
+    "nama_barang": "Sensor Suhu",
+    "kategori": "IoT",
+    "stok": "5",
+    "lokasi_loker": "Loker B2",
+    "status_aktif": "aktif",
+    "created_at": null,
+    "updated_at": null
+  }
+}
+
+## PUT /api/items/2
+Request:
+PUT /api/items/2
+Content-Type: application/json
+
+{
+  "stok": 8
+}
+
+Response:
+HTTP/1.1 200 OK
+{
+  "message": "Stok item diperbarui.",
+  "data": {
+    "id": 2,
+    "nama_barang": "Sensor Suhu",
+    "kategori": "IoT",
+    "stok": "8",
+    "lokasi_loker": "Loker B2",
+    "status_aktif": "aktif",
+    "created_at": null,
+    "updated_at": null
+  }
+}
+
+## DELETE /api/items/2
+Request:
+DELETE /api/items/2
+
+Response:
+HTTP/1.1 200 OK
+{
+  "message": "Item dihapus.",
+  "data": {
+    "id": 2,
+    "nama_barang": "Sensor Suhu",
+    "kategori": "IoT",
+    "stok": "8",
+    "lokasi_loker": "Loker B2",
+    "status_aktif": "aktif",
+    "created_at": null,
+    "updated_at": null
+  }
+}
+
+## GET /api/transactions
+Request:
+GET /api/transactions
+
+Response:
+HTTP/1.1 200 OK
+{
+  "data": [
+    {
+      "id": 1,
+      "id_barang": "BRG003",
+      "id_user": "2",
+      "tanggal_transaksi": "2026-06-25 16:00:00",
+      "jumlah_keluar": "50",
+      "jenis_transaksi": "masuk",
+      "created_at": null,
+      "updated_at": null,
+      "operator": "admin"
+    }
+  ]
+}
