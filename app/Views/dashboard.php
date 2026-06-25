@@ -27,6 +27,16 @@
                 </div>
             </a>
 
+            <a href="/item" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-emerald-500 transition shadow-lg">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-emerald-400 transition">Master Data Barang</h3>
+                        <p class="text-sm text-slate-400 mt-1">Kelola stok, lokasi loker, kategori, dan status aktif barang distribusi.</p>
+                    </div>
+                    <span class="text-2xl text-slate-600 group-hover:text-emerald-400 transition">→</span>
+                </div>
+            </a>
+
             <a href="/about" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-indigo-500 transition shadow-lg">
                 <div class="flex justify-between items-start">
                     <div>
