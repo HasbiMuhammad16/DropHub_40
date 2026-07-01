@@ -29,6 +29,9 @@ $routes->post('/api/items', 'Api\ItemApi::create');
 $routes->put('/api/items/(:num)', 'Api\ItemApi::update/$1');
 $routes->delete('/api/items/(:num)', 'Api\ItemApi::delete/$1');
 $routes->get('/api/transactions', 'Api\TransactionApi::index');
+$routes->post('/api/transactions', 'Api\TransactionApi::create');
+$routes->put('/api/transactions/(:num)', 'Api\TransactionApi::update/$1');
+$routes->delete('/api/transactions/(:num)', 'Api\TransactionApi::delete/$1');
 $routes->get('/api/docs', 'ApiDocs::index');
 
 $routes->get('/dashboard', 'Dashboard::index');

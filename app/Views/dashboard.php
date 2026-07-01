@@ -16,7 +16,7 @@
             <p class="text-blue-100 mt-2 max-w-xl">Sistem distribusi pintar terintegrasi IoT untuk efisiensi pelacakan, manajemen loker otomatis, dan pemantauan rantai pasok secara real-time.</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <a href="/user" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-blue-500 transition shadow-lg">
                 <div class="flex justify-between items-start">
                     <div>
@@ -34,6 +34,16 @@
                         <p class="text-sm text-slate-400 mt-1">Kelola stok, lokasi loker, kategori, dan status aktif barang distribusi.</p>
                     </div>
                     <span class="text-2xl text-slate-600 group-hover:text-emerald-400 transition">→</span>
+                </div>
+            </a>
+
+            <a href="/transaction" class="group bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-amber-500 transition shadow-lg">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-bold text-white group-hover:text-amber-400 transition">Transaksi Distribusi</h3>
+                        <p class="text-sm text-slate-400 mt-1">Catat transaksi barang masuk/keluar dan pantau riwayat distribusi.</p>
+                    </div>
+                    <span class="text-2xl text-slate-600 group-hover:text-amber-400 transition">→</span>
                 </div>
             </a>
 
